@@ -34,7 +34,6 @@
 </div>
 
 
-# Prune2Drive: A Plug-and-Play Framework for Accelerating Vision-Language Models in Autonomous Driving
 
 ## 👀 Overview
 
