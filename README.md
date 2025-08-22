@@ -33,17 +33,14 @@
 
 </div>
 
-## 📰 News
-
-* **`2025.08.21`** 🤗🤗 We release our latest work [Prune2Drive](https://arxiv.org/abs/2508.13305), the **first investigation** into the token compression of multi-view autonomous driving VLMs. [Code](https://github.com/qqqqiiuuss/Prune2Drive) is available!
 
 # Prune2Drive: A Plug-and-Play Framework for Accelerating Vision-Language Models in Autonomous Driving
 
 ## 👀 Overview
 
-- 💥 We present **T-FPS**, a lightweight token pruning method inspired by Farthest Point Sampling, designed to preserve semantic and spatial diversity by selecting the most representative visual tokens across multi-view inputs.
-- 💥 We develop a **view-adaptive pruning ratio optimization framework** that automatically assigns distinct pruning ratios to each camera view, enabling fine-grained control over the trade-off between perception completeness and computational efficiency.
-- 💥 We conduct comprehensive experiments on two real-world autonomous driving benchmarks, **DriveLM** and **DriveLMM-o1**. With only **10%** retained tokens, our method achieves minimal performance degradation while significantly reducing computational cost.
+- 🌟 We present **T-FPS**, a lightweight token pruning method inspired by Farthest Point Sampling, designed to preserve semantic and spatial diversity by selecting the most representative visual tokens across multi-view inputs.
+- 🌟 We develop a **view-adaptive pruning ratio optimization framework** that automatically assigns distinct pruning ratios to each camera view, enabling fine-grained control over the trade-off between perception completeness and computational efficiency.
+- 🌟 We conduct comprehensive experiments on two real-world autonomous driving benchmarks, **DriveLM** and **DriveLMM-o1**. With only **10%** retained tokens, our method achieves minimal performance degradation while significantly reducing computational cost.
 
 <p align='center'>
 <img src='./assets/overview.png' alt='overview' width='850px'>
@@ -75,7 +72,6 @@
    
 ```bash
   cd ckpt && huggingface-cli download DriveMM/DriveMM --local-dir ./DriveMM --resume-download
-  
 ```
 Download nuscenes dataset and place it to scripts/data folder [Around 70 GB]
 
@@ -86,12 +82,9 @@ Download nuscenes dataset and place it to scripts/data folder [Around 70 GB]
   conda activate prune2drive
   pip install --upgrade pip  # Enable PEP 660 support.
   pip install -e ".[train]"
-
   cd transformers
   pip install -e .
 ```
-
-## 🧪 Evaluation
 
 
 
@@ -99,7 +92,7 @@ Download nuscenes dataset and place it to scripts/data folder [Around 70 GB]
 ```bash
   cd scripts
   # Run DriveLM inference pipeline and generate submission.json 
-  bash run_drivelm_single_cuda_0.sh [CUDA_DEVICES] [OUTPUT_SAVE_PATH]
+  bash run_inference.sh [CUDA_DEVICES] [OUTPUT_SAVE_PATH]
 ```
 
 ### Pruning Ratio Optimization
@@ -107,13 +100,13 @@ Download nuscenes dataset and place it to scripts/data folder [Around 70 GB]
 ```bash
   cd scripts
   # Run  
-  python run_drive_nni_0.03.py
+  python run_drive_nni.py
 
   # View pruning ratio optimization outputs
   nnictl view YOUR_ID --experiment_dir YOUR_OUTPUT_DIR --port YOUR_PORT_ID
 ```
 
-### Evaluation Guidance
+### 📈 Evaluation Guidance
 
 The DriveLM competition server is held on [Hugging Face space](https://huggingface.co/spaces/AGC2024/driving-with-language-official). 
 

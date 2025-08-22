@@ -10,7 +10,7 @@ search_space = {
 from nni.experiment import Experiment
 experiment = Experiment('local')
 
-experiment.config.trial_command = 'python demo_drivelm_ddp_single_nni.py --data ../test_llama.json'
+experiment.config.trial_command = 'python drive_nni.py --data ../test_llama.json'
 experiment.config.trial_code_directory = '.'
 
 experiment.config.experiment_working_directory = './nni_logs'
