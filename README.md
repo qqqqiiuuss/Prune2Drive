@@ -154,7 +154,7 @@ You can select a submission and click `Update Selected Submissions` on the botto
 
 ## 📌 TODO
 - [x] Release Inference and Evaluation Code
-- [x] Release Multi-view Optimization Code
+- [x] Release Multi-view Pruning Ratio Optimization Code
 
 ## 🔑 License
 
