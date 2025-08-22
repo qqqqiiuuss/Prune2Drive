@@ -1,5 +1,5 @@
 <div align="center">
-  <h1 style="display: inline-block; margin: 0;">🚗 Prune2Drive: A Plug-and-Play Framework for Accelerating Vision-Language Models in Autonomous Driving</h1>
+  <h1 style="display: inline-block; margin: 0;">🏎️ Prune2Drive: A Plug-and-Play Framework for Accelerating Vision-Language Models in Autonomous Driving</h1>
 </div>
 
 <h4 align="center"> 
