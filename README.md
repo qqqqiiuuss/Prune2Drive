@@ -7,19 +7,24 @@
 [Minhao Xiong]()<sup>1*</sup>,
 [Zichen Wen](https://scholar.google.com/citations?user=N-aPFvEAAAAJ&hl=zh-CN)<sup>1,2*</sup>,
 [Zhuangcheng Gu]()<sup>3</sup>,
-[Xuyang Liu](https://xuyang-liu16.github.io/)<sup>4</sup>, 
+[Xuyang Liu](https://xuyang-liu16.github.io/)<sup>4</sup>, <br>
 [Rui Zhang]()<sup>2</sup>,
-[Hengrui Kang]()<sup>1,2</sup>, <br>
+[Hengrui Kang]()<sup>1,2</sup>, 
 [Jiabing Yang]()<sup>5</sup>,
-[Junyuan Zhang]()<sup>6,2</sup>,
+[Junyuan Zhang]()<sup>6,2</sup>, <br>
 [Weijia Li](https://liweijia.github.io/)<sup>7,2</sup>,
 [Conghui He](https://conghui.github.io/)<sup>2</sup>,
 [Yafei Wang]()<sup>1</sup>,
 [Linfeng Zhang](http://www.zhanglinfeng.tech/)<sup>1†</sup>,
 
 
-<sup>1</sup>Shanghai Jiao Tong University, <sup>2</sup>Shanghai AI Laboratory, <sup>3</sup>Carnegie Mellon University, 
-<sup>4</sup>Sichuan University, <br> <sup>5</sup>University of Chinese Academy of Sciences, <sup>6</sup>The University of Hong Kong, <sup>7</sup>Sun Yat-sen University
+<sup>1</sup>Shanghai Jiao Tong University, 
+<sup>2</sup>Shanghai AI Laboratory, 
+<sup>3</sup>Carnegie Mellon University, 
+<sup>4</sup>Sichuan University,  <br>
+<sup>5</sup>University of Chinese Academy of Sciences, 
+<sup>6</sup>The University of Hong Kong, 
+<sup>7</sup>Sun Yat-sen University
 
 *Equal contribution, †Corresponding author
 
